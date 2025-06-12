@@ -32,3 +32,6 @@ if ($powerGuidDict.Contains($ppkey)) {
     Write-Output "Key '$ppkey' does not exist. Opening powercfg.cpl..."
     powercfg.cpl
 }
+
+Write-Output " "
+Read-Host -Prompt "Press Enter to close"
